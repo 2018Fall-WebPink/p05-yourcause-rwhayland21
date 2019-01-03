@@ -1,0 +1,86 @@
+/*
+*Riley Whayland 
+*1/4/19
+*My cause 
+
+/* The universal selector */ 
+
+*{ 
+    margin: 0;
+    padding: 0;
+
+}
+
+/* My body and first picture format */ 
+
+body { width: 90%;
+        margin: auto;
+    background-color: mintcream;
+}
+
+#whitetiger { width: 150px; height: 200px; 
+                float: left;
+                border: thick solid black;
+                margin: 20px}
+
+/* My headings */
+
+h1 { font-family: monospace, serif, sans-serif; 
+    font-size: 250%;
+    text-align: center;
+    text-transform:capitalize;
+    border-bottom: 4px solid black;
+}
+
+
+h3 { font-family: monospace, serif, sans-serif; 
+    font-size: 150%;
+    text-align: left;
+}
+
+.nofloat {clear:both; }
+
+/* How most of my paragraphs are formatted */
+
+main { width: 90%;
+    margin: auto;
+    font-family: monospace, serif, sans-serif; 
+    font-size: 110%;
+    text-align: left;
+}
+
+p {font-family: monospace, serif, sans-serif; 
+    font-size: 100%;
+    text-align: left;
+
+ }
+
+/* The way the rest of my pictures are formatted */
+
+.tiger  { width: 170px; height: 160px; 
+                float: left;
+                border: thick solid black;
+                margin: 20px; }
+
+#map  {   width:220px; height: 170px;
+            float:right;
+             border: thick solid black;
+            margin: 20px;}
+
+footer { border-top: 4px solid black;
+        clear: both;}
+
+/* The rest of my headings */
+
+h2 { width: 90%;
+    margin: auto;
+    font-family: monospace, serif, sans-serif; 
+    font-size: 100%;
+    text-align: left;
+}
+
+h4 { width: 90%;
+    margin: auto;
+    font-family: monospace, serif, sans-serif; 
+    font-size: 100%;
+    text-align: right;}
